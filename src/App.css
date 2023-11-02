@@ -1,0 +1,37 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+.buttonContainer {
+  width: 240px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+button {
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 3px solid rgba(255, 255, 255, 0);
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.point {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid cyan;
+}
