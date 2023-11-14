@@ -1,4 +1,4 @@
-# Desafio React Junior 🚀
+# react-challenge-dots-at-screen 🚀
 
 ## Introdução 📝
 
