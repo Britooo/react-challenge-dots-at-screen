@@ -36,8 +36,9 @@ function App() {
       <div className="App" onClick={handleClick}>
         {points.map((point, index) => {
           return <div className='point' key={index} style={{
-            top: point.yAxis - 18,
-            left: point.xAxis - 18,
+            // Offset by half of the element's size so the point is centered
+            top: point.yAxis - 15,
+            left: point.xAxis - 15,
           }}>
           </div>
         })}
