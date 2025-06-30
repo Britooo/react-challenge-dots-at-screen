@@ -2,7 +2,7 @@
 
 ## Introdução 📝
 
-Este repositório contém uma aplicação web interativa 🌐 desenvolvida como um teste de habilidades para desenvolvedores React em nível júnior. O objetivo deste desafio é criar uma aplicação que permite aos usuários adicionar círculos na tela com cliques do mouse 🖱️ e fornecer funcionalidades de desfazer (undo) e refazer (redo) para gerenciar esses círculos.
+Este repositório contém uma aplicação web interativa 🌐 desenvolvida como um teste de habilidades para desenvolvedores React em nível júnior. O objetivo deste desafio é criar uma aplicação que permite aos usuários adicionar círculos na tela com cliques do mouse 🖱️ e fornecer funcionalidades de desfazer (undo) e refazer (redo) para gerenciar esses círculos. A base do projeto foi atualizada para utilizar o [Vite](https://vitejs.dev) como ferramenta de desenvolvimento e bundler.
 
 ## Descrição do Projeto 📦
 
@@ -32,14 +32,15 @@ Para executar a aplicação localmente, siga os passos abaixo:
     ```
 4. Inicie o servidor de desenvolvimento:
     ```
-    npm start
+    npm run dev
     ```
-5. Abra seu navegador e acesse `http://localhost:3000` para ver a aplicação em ação 🎉.
+5. Abra seu navegador e acesse `http://localhost:5173` para ver a aplicação em ação 🎉.
 
 ## Tecnologias Utilizadas 💻
 
 - [React](https://reactjs.org/): Uma biblioteca JavaScript para construir interfaces de usuário 🖼️.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Para estilização dos componentes 🎨.
+- [Vite](https://vitejs.dev): Ferramenta moderna de bundling e desenvolvimento ⚡.
 
 ## Contribuições 🤝
 
