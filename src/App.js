@@ -8,6 +8,7 @@ function App() {
 
   const handleClick = (e) => {
     setPoints([...points, { xAxis: e.clientX, yAxis: e.clientY }])
+    setUndoPoints([])
   }
 
   const handleUndo = (e) => {
