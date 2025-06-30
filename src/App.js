@@ -10,19 +10,21 @@ function App() {
     setPoints([...points, { xAxis: e.clientX, yAxis: e.clientY }])
   }
 
-  const handleUndo = (e) => {
-    const actualPoints = points;
-    const lastPoint = actualPoints.pop();
+  const handleUndo = () => {
+    const updatedPoints = points.slice();
+    const lastPoint = updatedPoints.pop();
     if (lastPoint) {
-      setUndoPoints([...undoPoints, lastPoint])
-      setPoints(actualPoints);
+      setUndoPoints(prev => [...prev, lastPoint]);
+      setPoints(updatedPoints);
     }
   }
 
-  const handleRedo = (e) => {
-    const lastPointRemoved = undoPoints.pop();
-    if (lastPointRemoved) {
-      setPoints([...points, lastPointRemoved]);
+  const handleRedo = () => {
+    const updatedUndo = undoPoints.slice();
+    const lastPoint = updatedUndo.pop();
+    if (lastPoint) {
+      setUndoPoints(updatedUndo);
+      setPoints(prev => [...prev, lastPoint]);
     }
   }
 
